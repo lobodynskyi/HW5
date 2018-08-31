@@ -194,6 +194,26 @@ namespace HW5
             }
 
         }
+
+
+        public void Zad13()
+        {
+            List<IFlyable> flyables = new List<IFlyable>();
+            Plane plane1 = new Plane("AZE", 123);
+            Plane plane2 = new Plane("POI", 345);
+            Bird bird1 = new Bird("Ow", true);
+            Bird bird2 = new Bird("Pigon", true);
+            flyables.Add(plane1);
+            flyables.Add(plane2);
+            flyables.Add(bird1);
+            flyables.Add(bird2);
+            foreach( IFlyable fl in flyables)
+            {
+                fl.Fly();
+            }
+
+        }
+
         static void Main(string[] args)
         {
             Program program = new Program();
@@ -208,7 +228,8 @@ namespace HW5
             //program.Zad9(10);
             //program.Zad10();
             //program.Zad11();
-            program.Zad12();
+            //program.Zad12();
+            program.Zad13();
             Console.ReadKey();
         }
     }
