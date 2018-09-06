@@ -59,7 +59,7 @@ namespace HW5
 
         public override string ToString()
         {
-            return String.Concat(name, birthYear); 
+            return String.Concat(name + " ", birthYear.ToShortDateString()); 
         }
         
         public void Outout()

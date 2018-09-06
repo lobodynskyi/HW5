@@ -45,7 +45,7 @@ namespace HW5
 
         public override string ToString()
         {
-            return String.Concat(name, color, price, CompanyName);
+            return String.Concat(name + " ", color + " ", price + " ", CompanyName);
         }
 
         public static bool operator ==(Car first, Car second)

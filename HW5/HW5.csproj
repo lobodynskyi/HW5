@@ -44,8 +44,11 @@
   <ItemGroup>
     <Compile Include="HW4\Bird.cs" />
     <Compile Include="HW3\Car.cs" />
+    <Compile Include="HW4\HW_HashTable\HW_HashTable.cs" />
+    <Compile Include="HW4\HW_HashTable\List.cs" />
     <Compile Include="HW4\IFlyable.cs" />
     <Compile Include="HW3\Person.cs" />
+    <Compile Include="HW4\MyColl.cs" />
     <Compile Include="HW4\Plane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

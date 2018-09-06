@@ -1,3 +1,5 @@
+using HW5.HW4;
+using HW5.HW4.HW_HashTable;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -229,7 +231,14 @@ namespace HW5
             //program.Zad10();
             //program.Zad11();
             //program.Zad12();
-            program.Zad13();
+            //program.Zad13();
+            //MyColl myColl = new MyColl();
+            
+            HW_HashTable hW_HashTable = new HW_HashTable();
+            hW_HashTable.FillHashTabe();
+            Console.WriteLine(hW_HashTable);
+            hW_HashTable.ShowMethods();
+            
             Console.ReadKey();
         }
     }
