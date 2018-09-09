@@ -118,5 +118,13 @@ namespace HW5.HW4.HW_HashTable
                    o.GetType().IsGenericType &&
                    o.GetType().GetGenericTypeDefinition().IsAssignableFrom(typeof(List<>));
         }
+
+        public void IntrodctionHashTable()
+        {
+            HW_HashTable hW_HashTable = new HW_HashTable();
+            hW_HashTable.FillHashTabe();
+            Console.WriteLine(hW_HashTable);
+            hW_HashTable.ShowMethods();
+        }
     }
 }

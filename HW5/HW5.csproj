@@ -42,22 +42,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HW4\Bird.cs" />
-    <Compile Include="HW3\Car.cs" />
-    <Compile Include="HW4\HW_HashTable\HW_HashTable.cs" />
-    <Compile Include="HW4\HW_HashTable\List.cs" />
-    <Compile Include="HW4\IFlyable.cs" />
-    <Compile Include="HW3\Person.cs" />
-    <Compile Include="HW4\MyColl.cs" />
-    <Compile Include="HW4\Plane.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="1_C_language\HW1.cs" />
+    <Compile Include="2_Value_types\HW2.cs" />
+    <Compile Include="4_Class_Object\HW4.cs" />
+    <Compile Include="5_Interfaces_Collections\Bird.cs" />
+    <Compile Include="4_Class_Object\Car.cs" />
+    <Compile Include="5_Interfaces_Collections\Builder.cs" />
+    <Compile Include="5_Interfaces_Collections\HW5.cs" />
+    <Compile Include="5_Interfaces_Collections\HW_HashTable\HW_HashTable.cs" />
+    <Compile Include="5_Interfaces_Collections\IDeveloper.cs" />
+    <Compile Include="5_Interfaces_Collections\IFlyable.cs" />
+    <Compile Include="4_Class_Object\Person.cs" />
+    <Compile Include="5_Interfaces_Collections\MyColl.cs" />
+    <Compile Include="5_Interfaces_Collections\Plane.cs" />
+    <Compile Include="5_Interfaces_Collections\Programmer.cs" />
+    <Compile Include="6_Exception_Files\ExceptionExample.cs" />
+    <Compile Include="6_Exception_Files\HW6.cs" />
+    <Compile Include="6_Exception_Files\PhoneBook.cs" />
+    <Compile Include="6_Exception_Files\WorkWithFileExample.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\Circle.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\Cleaner.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\HW7.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\Person.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\Shape.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\Square.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\Staff.cs" />
+    <Compile Include="7_Abstract_class_Polymorphism\Teacher.cs" />
+    <Compile Include="8_Language_Integrated_Query\HW8.cs" />
+    <Compile Include="8_Language_Integrated_Query\Part1.cs" />
+    <Compile Include="8_Language_Integrated_Query\Part2.cs" />
+    <Compile Include="MainClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="HW2\" />
+    <Content Include="6_Exception_Files\Data.txt" />
+    <Content Include="6_Exception_Files\New.txt" />
+    <Content Include="6_Exception_Files\Numbers.txt" />
+    <Content Include="6_Exception_Files\phones.txt" />
+    <Content Include="6_Exception_Files\Phones1.txt" />
+    <Content Include="6_Exception_Files\Rez1.txt" />
+    <Content Include="6_Exception_Files\Rez2.txt" />
+    <Content Include="8_Language_Integrated_Query\Text.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
