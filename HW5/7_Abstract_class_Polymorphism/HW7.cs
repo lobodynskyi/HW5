@@ -10,6 +10,11 @@ namespace HW5._7_Abstract_class_Polymorphism
     class HW7
     {
 
+        public HW7()
+        {
+            IntroductionHW7();
+        }
+
         public void Task1()
         {
             ICollection<Person> people = new List<Person>();
@@ -62,9 +67,11 @@ namespace HW5._7_Abstract_class_Polymorphism
             }
         }
 
+
         public void IntroductionHW7()
         {
-            Task2();   
+            Task1();
+            //Task2();   
 
         }
 

@@ -10,6 +10,10 @@ namespace HW5._6_Exception_Files
   
     class HW6
     {
+        public HW6()
+        {
+            IntroductionHW6();
+        }
         public static void CheckNumer(int smallest, int biggest)
         {
             try
@@ -47,14 +51,14 @@ namespace HW5._6_Exception_Files
         PhoneBook phoneBook;
         public void IntroductionHW6()
         {
-            //example = new WorkWithFileExample();
-            //example.TranserDataBetweenFiles();
-            //phoneBook = new PhoneBook();
-            //phoneBook.FillDictionary();
-            //phoneBook.Show();
-            //Console.WriteLine("Find Olena Number = "  + phoneBook.Find("Olena"));
-            //phoneBook.FillFileWithPhoneNumbers("C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\6_Exception_Files\\Phones1.txt");
-            //phoneBook.ChangeFormat("C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\6_Exception_Files\\New.txt");
+            example = new WorkWithFileExample();
+            example.TranserDataBetweenFiles();
+            phoneBook = new PhoneBook();
+            phoneBook.FillDictionary();
+            phoneBook.Show();
+            Console.WriteLine("Find Olena Number = " + phoneBook.Find("Olena"));
+            phoneBook.FillFileWithPhoneNumbers("C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\6_Exception_Files\\Phones1.txt");
+            phoneBook.ChangeFormat("C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\6_Exception_Files\\New.txt");
             CheckNumer(-2, 10);
         }
     }

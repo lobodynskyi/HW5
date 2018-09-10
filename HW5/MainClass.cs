@@ -14,7 +14,7 @@ namespace HW5
 
         static void Main(string[] args)
         {
-            HW8 hW8 = new HW8();
+            HW7 hW8 = new HW7();
             Console.ReadKey();
      
         }

@@ -52,6 +52,7 @@ namespace HW5._8_Language_Integrated_Query
             {
                 Console.WriteLine(e);
             }
+
         }
 
         public Part2()
