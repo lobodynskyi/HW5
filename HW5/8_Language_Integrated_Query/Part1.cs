@@ -45,7 +45,7 @@ namespace HW5._8_Language_Integrated_Query
             string text = string.Empty;
             foreach (var e in zad1)
             {
-                text = text + e.ToString() + "\n";
+                text = text + e.Name + "\n";
             }
             string filePassTo = "C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\8_Language_Integrated_Query\\zad1.txt";
             File.WriteAllText(filePassTo, text, System.Text.Encoding.Default);
@@ -57,7 +57,7 @@ namespace HW5._8_Language_Integrated_Query
             string text = string.Empty;
             foreach (var e in zad2)
             {
-                text = text + e.ToString() + "\n";
+                text = text + e.Name + "\n";
             }
             string filePassTo = "C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\8_Language_Integrated_Query\\zad2.txt";
             File.WriteAllText(filePassTo, text, System.Text.Encoding.Default);

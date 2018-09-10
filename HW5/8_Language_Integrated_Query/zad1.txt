@@ -1,6 +1,6 @@
-HW5._7_Abstract_class_Polymorphism.Square
-HW5._7_Abstract_class_Polymorphism.Square
-HW5._7_Abstract_class_Polymorphism.Square
-HW5._7_Abstract_class_Polymorphism.Square
-HW5._7_Abstract_class_Polymorphism.Circle
-HW5._7_Abstract_class_Polymorphism.Circle
+Square2
+Square3
+Square4
+Square5
+Circle1
+Circle3
