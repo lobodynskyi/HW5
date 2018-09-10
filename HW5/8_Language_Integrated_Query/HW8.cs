@@ -11,7 +11,7 @@ namespace HW5._8_Language_Integrated_Query
         
         public HW8()
         {
-            //Part1 part1 = new Part1();
+            Part1 part1 = new Part1();
             Part2 part2 = new Part2();
         }
     }

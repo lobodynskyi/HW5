@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HW5._5_Interfaces_Collections
 {
-    class HW5
+    class HW55
     {
         public void Zad13()
         {
@@ -71,10 +71,14 @@ namespace HW5._5_Interfaces_Collections
 
         public void IntroductionHW5()
         {
-            MyColl myColl = new MyColl();
+            //MyColl myColl = new MyColl();
             Zad13();
             Zad14();
             Zad15();
+        }
+        public HW55()
+        {
+            IntroductionHW5();
         }
     }
 }
