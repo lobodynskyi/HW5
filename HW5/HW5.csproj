@@ -86,6 +86,8 @@
     <Content Include="6_Exception_Files\Rez1.txt" />
     <Content Include="6_Exception_Files\Rez2.txt" />
     <Content Include="8_Language_Integrated_Query\Text.txt" />
+    <Content Include="8_Language_Integrated_Query\zad1.txt" />
+    <Content Include="8_Language_Integrated_Query\zad2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -47,7 +47,7 @@ namespace HW5._8_Language_Integrated_Query
             {
                 text = text + e.ToString() + "\n";
             }
-            string filePassTo = "C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\6_Exception_Files\\zad1.txt";
+            string filePassTo = "C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\8_Language_Integrated_Query\\zad1.txt";
             File.WriteAllText(filePassTo, text, System.Text.Encoding.Default);
         }
 
@@ -59,7 +59,7 @@ namespace HW5._8_Language_Integrated_Query
             {
                 text = text + e.ToString() + "\n";
             }
-            string filePassTo = "C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\6_Exception_Files\\zad2.txt";
+            string filePassTo = "C:\\Users\\Nazar\\source\\repos\\HW5\\HW5\\8_Language_Integrated_Query\\zad2.txt";
             File.WriteAllText(filePassTo, text, System.Text.Encoding.Default);
         }
         public Part1()
